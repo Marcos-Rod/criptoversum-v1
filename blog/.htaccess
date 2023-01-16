@@ -1,0 +1,5 @@
+RewriteEngine On
+
+## URL amigable de las notas
+##RewriteRule ^(blog/img|blog/template/partials)($|/) - [L]
+RewriteRule ^blog/(.+)$                    blog/index.php?post=$1

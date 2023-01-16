@@ -1,0 +1,54 @@
+@font-face {
+    font-family: CaviarDreams;
+    font-display: auto;
+    src: url('../../fonts/CaviarDreams.ttf');
+}
+@font-face {
+    font-family: CaviarDreams_Bold;
+    font-display: auto;
+    src: url('../../fonts/CaviarDreams_Bold.ttf');
+}
+
+label.error, .error{
+    width: 100%;
+    color: #ff0000;
+    font-size: .9em;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+.login-form{
+    background: linear-gradient(to right, #1F71A630, #D3007E30), #000;
+    box-shadow: 3px 0px 10px 10px #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'CaviarDreams';
+}
+.navbar-light .navbar-nav .show > .nav-link,.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #D20065;
+}
+.img-destacada{
+    position: relative;
+    max-width: 400px;
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+}
+.img-destacada img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    left: 0;
+    top: 0;
+}
